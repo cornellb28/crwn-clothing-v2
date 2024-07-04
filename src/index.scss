@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Roboto",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
